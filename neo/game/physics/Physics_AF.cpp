@@ -56,7 +56,7 @@ const float IMPULSE_THRESHOLD				= 500.0f;
 const float SUSPEND_LINEAR_VELOCITY			= 10.0f;
 const float SUSPEND_ANGULAR_VELOCITY		= 15.0f;
 const float SUSPEND_LINEAR_ACCELERATION		= 20.0f;
-const float SUSPEND_ANGULAR_ACCELERATION	= 30.0f;
+//const float SUSPEND_ANGULAR_ACCELERATION	= 30.0f;
 const idVec6 vec6_lcp_epsilon				= idVec6( LCP_EPSILON, LCP_EPSILON, LCP_EPSILON,
 													 LCP_EPSILON, LCP_EPSILON, LCP_EPSILON );
 

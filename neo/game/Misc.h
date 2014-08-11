@@ -557,7 +557,7 @@ private:
 	void				Event_Touch( idEntity *other, trace_t *trace );
 
 
-	idRenderModelLiquid *model;
+	//idRenderModelLiquid *model;
 };
 
 

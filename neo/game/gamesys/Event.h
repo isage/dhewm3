@@ -64,7 +64,7 @@ private:
 	size_t						argsize;
 	int							argOffset[ D_EVENT_MAXARGS ];
 	int							eventnum;
-	const idEventDef *			next;
+//	const idEventDef *			next;
 
 	static idEventDef *			eventDefList[MAX_EVENTS];
 	static int					numEventDefs;

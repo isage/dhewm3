@@ -268,10 +268,11 @@ void Sys_DestroyThread(xthreadInfo& info) {
 			thread[i] = NULL;
 
 			int j;
+			
 			for (j = i + 1; j < thread_count; j++)
 				thread[j - 1] = thread[j];
 
-			thread[j - 1] = NULL;
+			thread[thread_count - 1] = NULL;
 			thread_count--;
 
 			break;
